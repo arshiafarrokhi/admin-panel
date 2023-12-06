@@ -1,8 +1,26 @@
 import React from 'react'
+import { FaSearch } from "react-icons/fa";
+import { MdOutlineChat } from "react-icons/md";
+import { IoMdNotificationsOutline } from "react-icons/io";
+import Image from 'next/image'
 
 const navbar = () => {
   return (
-    <div>navbar</div>
+    <div className='w-full flex justify-between bg-[#212B39] h-[100px] text-[#D2D9E4] p-6'>
+      <div className='flex items-center'>
+        <input type="search" className='bg-inherit border rounded-lg border-slate-600 py-2 px-2 w-64 outline-none' placeholder='Search...' />
+        <FaSearch className='ml-2 cursor-pointer' />
+      </div>
+      <div className='flex items-center w-80 justify-evenly'>
+        <MdOutlineChat className=' bg-[#171f2a] p-1  scale-[3] rounded-md mx-4 cursor-pointer' />
+        <IoMdNotificationsOutline className='bg-[#171f2a] p-1 mx-3 scale-[3] rounded-md  cursor-pointer'/>
+        <img src="/avatar.png" className='scale-[0.8]' alt="" />
+        <div >
+          <p className='text-xs text-[14px]'>John Doe</p>
+          <p className='text-xs text-[14px]'>john@gmail.com</p>
+        </div>
+      </div>
+    </div>
   )
 }
 
