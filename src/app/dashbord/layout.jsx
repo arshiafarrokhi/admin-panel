@@ -5,11 +5,11 @@ import './../ui/globals.css'
 
 const Layout = ({ children }) => {
     return (
-        <div className='flex'>
+        <div className='flex h-[100vh]'>
             <div className='w-[20%]'>
                 <Sidebar />
             </div>
-            <div className='w-[80%]'>
+            <div className='w-[80%] overflow-y-scroll'>
                 <Navbar />
                 {children}
             </div>

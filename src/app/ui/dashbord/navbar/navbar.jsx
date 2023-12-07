@@ -16,8 +16,8 @@ const navbar = () => {
         <IoMdNotificationsOutline className='bg-[#171f2a] p-1 mx-3 scale-[3] rounded-md  cursor-pointer'/>
         <img src="/avatar.png" className='scale-[0.8]' alt="" />
         <div >
-          <p className='text-xs text-[14px]'>John Doe</p>
-          <p className='text-xs text-[14px]'>john@gmail.com</p>
+          <p className='text-xs text-[14px]'>Arshia Farrokhi</p>
+          <p className='text-xs text-[14px]'>Arshiafarrokhi@gmail.com</p>
         </div>
       </div>
     </div>

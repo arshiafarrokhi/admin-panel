@@ -6,3 +6,15 @@
     border: 1px solid #3ebf77;
     color: #3ebf77;
 }
+
+.listone{
+    background:  #171F2a!important;
+    background: transparent;
+    /* overflow: visible !important; */
+    color: white !important;
+}
+
+.css-11xur9t-MuiPaper-root-MuiTableContainer-root{
+    background: none;
+    color: white !important;
+}
