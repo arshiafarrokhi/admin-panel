@@ -1,7 +1,7 @@
 <br/>
 <p align="center">
   <a href="https://arshiafarrokhi.github.io/Gamingweb/">
-    <img src="public\Untitled.png" alt="Logo" width="200" height="80">
+    <img src="public\11.png" alt="Logo" width="200" height="80">
   </a>
 
   <h3 align="center">AdminPanel</h3>
