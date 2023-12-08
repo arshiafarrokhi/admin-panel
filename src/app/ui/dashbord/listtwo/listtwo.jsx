@@ -55,7 +55,7 @@ const data = [
 
 const listtwo = () => {
   return (
-    <div className='h-[450px] w-[34%] bg-[#171F2a] rounded-3xl p-5'>
+    <div className='h-[450px] lg:w-[34%] w-[100%] bg-[#171F2a] rounded-3xl p-5 mt-6 lg:mt-0'>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           width={500}

@@ -13,17 +13,17 @@ import '../ui/globals.css'
 const Dashbord = () => {
   return (
     <div className='bg-[#131720] p-5 w-full overflow-x-hidden text-[#fff]'>
-      <div className='flex items-center justify-around mt-4'>
+      <div className='flex items-center justify-around mt-4 flex-wrap'>
         <Card1 />
         <Card2 />
         <Card3 />
         <Card4 />
       </div>
-      <div className='flex mt-8 justify-between items-center'>
+      <div className='flex mt-8 justify-between items-center flex-wrap'>
         <Chartone />
         <Charttwo />
       </div>
-      <div className='flex mt-8 justify-between items-center'>
+      <div className='flex mt-8 justify-between items-center flex-wrap'>
         <Listone />
         <Listtwo />
       </div>

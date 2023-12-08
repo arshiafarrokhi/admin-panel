@@ -27,7 +27,7 @@ const data02 = [
 
 const charttwo = () => {
   return (
-    <div className='w-[33%] h-[450px] bg-[#171F2a] rounded-3xl p-8 flex flex-col justify-center items-center'>
+    <div className='lg:w-[33%] w-[100%] h-[450px] bg-[#171F2a] rounded-3xl p-8 flex flex-col justify-center items-center mt-6 lg:mt-0'>
       <ResponsiveContainer width="100%" height="100%">
         <PieChart width={400} height={400}>
           <Pie data={data01} dataKey="value" cx="50%" cy="50%" outerRadius={60} fill="#AE593D" />

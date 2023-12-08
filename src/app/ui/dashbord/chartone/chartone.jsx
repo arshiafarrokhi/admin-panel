@@ -51,7 +51,7 @@ const data = [
 
 const card = () => {
   return (
-    <div className='h-[450px] w-[63%] bg-[#171F2a] rounded-3xl p-10'>
+    <div className='h-[450px] lg:w-[63%] w-[100%] bg-[#171F2a] rounded-3xl p-10'>
       <h1 className='h-[20%] text-2xl font-extrabold transition-all hover:-translate-y-1 hover:text-[#ae593d]'>Monthly Overall Growth</h1>
       <ResponsiveContainer width="100%" height="80%">
         <AreaChart

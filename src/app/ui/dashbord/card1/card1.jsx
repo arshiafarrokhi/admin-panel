@@ -49,7 +49,7 @@ const data = [
 
 const card = () => {
   return (
-    <div className='h-[150px] w-[24%] bg-[#171F2a] rounded-3xl p-5 transition-all hover:-translate-y-3 hover:bg-[#ae593d96]'>
+    <div className='h-[150px] lg:w-[24%] w-[47%] bg-[#171F2a] rounded-3xl p-5 transition-all hover:-translate-y-3 hover:bg-[#ae593d96]'>
       <div className='flex items-center justify-between height="20%"'>
         <div>
           <h5 className='text-xl font-black'  >Bitcoin</h5>

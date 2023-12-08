@@ -9,6 +9,12 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const navbar = () => {
 
   const useHamb = useRef()
+  const useMenu = useRef()
+
+  const hambToggle = () => {
+    useHamb.current.classList.toggle("scale-[2]");
+    useMenu.current.classList.toggle("");
+  }
 
   return (
     <div className='w-full flex justify-between bg-[#212B39] h-[100px] text-[#D2D9E4] p-6'>

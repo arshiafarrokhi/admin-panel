@@ -25,7 +25,7 @@ const rows = [
 
 export default function CustomizedTables() {
   return (
-    <div className='h-[450px] w-[63%] bg-[#171F2a] rounded-3xl p-5'>
+    <div className='h-[450px] lg:w-[63%] w-[100%] mt-6 lg:mb-0 bg-[#171F2a] rounded-3xl p-5'>
       <TableContainer component={Paper} sx={ { background:'transparent' , fontWeight:800} }>
         <Table sx={{ minWidth: 650 }} aria-label="simple table">
           <TableHead>
