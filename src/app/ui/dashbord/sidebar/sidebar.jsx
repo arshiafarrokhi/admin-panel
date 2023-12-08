@@ -1,6 +1,5 @@
 "use client"
 import React, { useRef } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { FaWallet } from "react-icons/fa6";
@@ -16,12 +15,11 @@ import './../../globals.css'
 
 
 const sidebar = () => {
-  const menu = useRef()
   const pathname = usePathname()
   const { push } = useRouter()
 
   return (
-    <div ref={menu} className='bg-[#212B39] h-[100vh] w-[20%] text-[#D2D9E4] p-6 absolute top-0 lg:left-0 -left-[100%]'>
+    <div className='bg-[#212B39] h-[100vh] w-[20%] text-[#D2D9E4] p-6 absolute top-0 lg:left-0 -left-[100%]'>
       <div className='flex flex-col'>
         <img src="/11.png" alt="logo" width={150} height={150} className='mt-5' />
       </div>

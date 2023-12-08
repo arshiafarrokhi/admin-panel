@@ -56,7 +56,7 @@ const card = () => {
           <h6 className='font-extrabold'      >$1200.00</h6>
         </div>
         <div>
-          <img src="/555.png" alt="" />
+          <Img></Img>
         </div>
       </div>
       <ResponsiveContainer width="100%" height="65%">

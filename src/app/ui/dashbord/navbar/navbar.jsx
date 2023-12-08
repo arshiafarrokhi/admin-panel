@@ -3,17 +3,14 @@ import React, { useRef } from 'react'
 import { FaSearch } from "react-icons/fa";
 import { MdOutlineChat } from "react-icons/md";
 import { IoMdNotificationsOutline } from "react-icons/io";
-import Image from 'next/image'
 import { GiHamburgerMenu } from "react-icons/gi";
 
 const navbar = () => {
 
   const useHamb = useRef()
-  const useMenu = useRef()
 
   const hambToggle = () => {
     useHamb.current.classList.toggle("scale-[2]");
-    useMenu.current.classList.toggle("");
   }
 
   return (
