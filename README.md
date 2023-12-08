@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <a href="https://arshiafarrokhi.github.io/Gamingweb/">
+  <a href="https://admin-panel-phi-one.vercel.app/login">
     <img src="public\11.png" alt="Logo" width="250" height="50">
   </a>
 
@@ -10,11 +10,11 @@
     You can get more information from my personal website
     <br/>
     <br/>
-    <a href="https://arshiafarrokhi.github.io/Gamingweb/">View Demo</a>
+    <a href="https://admin-panel-phi-one.vercel.app/login">View Demo</a>
     .
-    <a href="https://arshiafarrokhi.github.io/Gamingweb/issues">Report Bug</a>
+    <a href="https://admin-panel-phi-one.vercel.app/login">Report Bug</a>
     .
-    <a href="https://arshiafarrokhi.github.io/Gamingweb/issues">Request Feature</a>
+    <a href="https://admin-panel-phi-one.vercel.app/login">Request Feature</a>
   </p>
 </p>
 
