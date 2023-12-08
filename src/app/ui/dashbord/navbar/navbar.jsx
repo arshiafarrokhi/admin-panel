@@ -1,17 +1,16 @@
 "use client"
-import React, { useRef } from 'react'
+import React, { useRef } from 'react';
 import { FaSearch } from "react-icons/fa";
 import { MdOutlineChat } from "react-icons/md";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 
-const navbar = () => {
-
-  const useHamb = useRef()
+const Navbar = () => {
+  const useHamb = useRef();
 
   const hambToggle = () => {
     useHamb.current.classList.toggle("scale-[2]");
-  }
+  };
 
   return (
     <div className='w-full flex justify-between bg-[#212B39] h-[100px] text-[#D2D9E4] p-6'>
@@ -25,14 +24,14 @@ const navbar = () => {
       <div className='flex items-center w-80 justify-evenly'>
         <MdOutlineChat className=' bg-[#171f2a] p-1  scale-[3] rounded-md mx-4 cursor-pointer' />
         <IoMdNotificationsOutline className='bg-[#171f2a] p-1 mx-3 scale-[3] rounded-md  cursor-pointer' />
-        <img src="/avatar.png" className='scale-[0.8]' alt="" />
+        <img src="/avatar.png" alt="User Avatar" className='scale-[0.8]' />
         <div >
           <p className='text-xs text-[14px]'>Arshia Farrokhi</p>
           <p className='text-xs text-[14px]'>Arshiafarrokhi@gmail.com</p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default navbar
+export default Navbar;

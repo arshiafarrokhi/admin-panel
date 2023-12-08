@@ -55,9 +55,6 @@ const card = () => {
           <h5 className='text-xl font-black'  >Bitcoin</h5>
           <h6 className='font-extrabold'      >$1200.00</h6>
         </div>
-        <div>
-          <Img></Img>
-        </div>
       </div>
       <ResponsiveContainer width="100%" height="65%">
         <AreaChart
