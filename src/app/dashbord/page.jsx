@@ -12,7 +12,7 @@ import '../ui/globals.css'
 
 const Dashbord = () => {
   return (
-    <div className='bg-[#131720] p-5 overflow-x-hidden text-[#fff]'>
+    <div className='bg-[#131720] p-5 w-full overflow-x-hidden text-[#fff]'>
       <div className='flex items-center justify-around mt-4'>
         <Card1 />
         <Card2 />
