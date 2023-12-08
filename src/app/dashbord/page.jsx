@@ -7,6 +7,7 @@ import Chartone from '../ui/dashbord/chartone/chartone'
 import Charttwo from '../ui/dashbord/charttwo/charttwo'
 import Listone from '../ui/dashbord/listone/listone'
 import Listtwo from '../ui/dashbord/listtwo/listtwo'
+import Footer from '../ui/dashbord/footer/footer'
 import '../ui/globals.css'
 
 const Dashbord = () => {
@@ -19,12 +20,15 @@ const Dashbord = () => {
         <Card4 />
       </div>
       <div className='flex mt-8 justify-between items-center'>
-        <Chartone/>
-        <Charttwo/>
+        <Chartone />
+        <Charttwo />
       </div>
       <div className='flex mt-8 justify-between items-center'>
-        <Listone/>
-        <Listtwo/>
+        <Listone />
+        <Listtwo />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   )

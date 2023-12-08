@@ -2,7 +2,10 @@ import React from 'react'
 
 const Wallets = () => {
   return (
-    <div>Wallets</div>
+    <div className='pageNotFound'>
+      <p>sorry 😞</p>
+      <p>not found /dashboard/Wallets page or not create for yet</p>
+    </div>
   )
 }
 

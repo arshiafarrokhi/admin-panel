@@ -1,9 +1,13 @@
+"use client"
 import React from 'react'
+import Login from '../ui/login/login'
 
-const Login = () => {
+const Loginn = () => {
   return (
-    <div>Login</div>
+    <div className='LogonContaainer'>
+      <Login />
+    </div>
   )
 }
 
-export default Login
+export default Loginn

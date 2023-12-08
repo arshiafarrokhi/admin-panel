@@ -18,3 +18,76 @@
     background: none;
     color: white !important;
 }
+
+.loginPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #171F2a;
+    border-radius: 30px;
+    height: 400px;
+    width: 300px;
+}
+
+.LogonContaainer{
+    background-color: #131720;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #171F2a !important;; */
+    
+}
+.logIn-input{
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid rgba(180, 180, 180, 0.411);
+    outline: none;
+    width: 90%;
+    height: 45px;
+    padding: 5px;
+
+    &::placeholder{
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    &:placeholder-shown{
+        padding: 0 10px;
+        font-size: 12px;
+    }
+    &:nth-of-type(2){
+        margin: 25px 0;
+        
+    }
+}
+
+.LogIn-Button{
+    padding: 7px 35px;
+    background-color: #3ebf77;
+    border-radius: 20px;
+}
+
+.wlcToLogin{
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 45px;
+}
+
+.pageNotFound{
+    color: white;
+    background: #131720;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    p{
+        font-size: 30px;
+        font-weight: 700;
+    }
+}

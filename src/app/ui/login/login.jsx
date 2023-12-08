@@ -1,9 +1,38 @@
-import React from 'react'
+"use client"
+import Link from 'next/link'
+import '../globals.css'
+import React, { useRef } from "react";
+import toast, { Toaster } from 'react-hot-toast';
 
-const login = () => {
+const Login = () => {
+
+  const inputName = useRef();
+  const inputEmail = useRef();
+
+  const loginclick = (e) => {
+    if (inputName.current.value == '' || inputName.current.value == null || inputEmail.current.value == '' || inputEmail.current.value == null) {
+      e.preventDefault()
+      toast('Enter Your Name And Email',
+        {
+          icon: '❌',
+          style: {
+            borderRadius: '8px',
+            background: '#171F2A',
+            color: '#fff',
+          },
+        }
+      );
+    }
+  }
   return (
-    <div>login</div>
+    <div className='loginPage'>
+      <h1 className='wlcToLogin'>LogIn To AdminPanel</h1>
+      <input ref={inputName} placeholder='Your Name...' className='logIn-input' type="text" />
+      <input ref={inputEmail} placeholder='Your Email...' className='logIn-input' type="email" />
+      <Link className='LogIn-Button' href={"/dashbord"} onClick={loginclick}>LogIn</Link>
+      <Toaster />
+    </div>
   )
 }
 
-export default login
+export default Login
