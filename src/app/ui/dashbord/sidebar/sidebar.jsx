@@ -7,8 +7,7 @@ import { FaPercent } from "react-icons/fa6";
 import { IoMdSettings } from "react-icons/io";
 import { MdNotificationsActive } from "react-icons/md";
 import { TbLogout2 } from "react-icons/tb";
-// import { usePathname } from 'next/dist/client/router';
-import { useRouter } from "next/navigation"
+import { usePathname } from "next/navigation"
 // import React from 'react';
 import './../../globals.css'
 
@@ -31,7 +30,6 @@ const sidebar = ({ router }) => {
         <Link className={`w-full hover:text-[#3EBF77] hover:border-[#3EBF77] transition-all flex items-center text-[16px] my-2 py-4 px-4 font-semibold border rounded-lg border-slate-600 `} href="/dashbord/promotions"><FaPercent className='mr-2' />Promotions</Link>
         <Link className={`w-full hover:text-[#3EBF77] hover:border-[#3EBF77] transition-all flex items-center text-[16px] my-2 py-4 px-4 font-semibold border rounded-lg border-slate-600 `} href="/dashbord/notifications"><MdNotificationsActive className='mr-2' />Notifications</Link>
         <Link className={`w-full hover:text-[#3EBF77] hover:border-[#3EBF77] transition-all flex items-center text-[16px] my-2 py-4 px-4 font-semibold border rounded-lg border-slate-600 `} href="/dashbord/settings"><IoMdSettings className='mr-2' />Settings</Link>
-        {/* <Link className={`w-full hover:text-[#131720] hover:border-[#3EBF77] bg-[#3EBF77] transition-all flex items-center text-[16px] my-2 py-4 px-4 font-semibold border rounded-lg border-slate-600 ${pathname === '/dashbord/settings' ? 'active' : ''} `} href="../index"><TbLogout2 className='mr-2' />Log Out</Link> */}
         <button className='w-full hover:text-[#131720] hover:bg-[#3EBF77] bg-[#3ebf7878] transition-all flex items-center text-[16px] my-2 py-4 px-4 font-semibold border rounded-lg border-slate-600' onClick={() => router.push("/")}><TbLogout2 className='mr-2' />Log Out</button>
       </div>
     </div>
