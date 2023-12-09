@@ -9,6 +9,19 @@ const Login = () => {
   const inputName = useRef();
   const inputEmail = useRef();
 
+  const inputClick = () => {
+    toast('Enter Admin',
+      {
+        icon: '📌',
+        style: {
+          borderRadius: '8px',
+          background: '#171F2A',
+          color: '#fff',
+        },
+      }
+    );
+  }
+
   const loginclick = (e) => {
     if (inputName.current.value == '' || inputName.current.value == null || inputEmail.current.value == '' || inputEmail.current.value == null) {
       e.preventDefault()
@@ -27,8 +40,8 @@ const Login = () => {
   return (
     <div className='loginPage'>
       <h1 className='wlcToLogin'>LogIn To AdminPanel</h1>
-      <input ref={inputName} placeholder='Your Name...' className='logIn-input' type="text" />
-      <input ref={inputEmail} placeholder='Your Email...' className='logIn-input' type="email" />
+      <input onClick={inputClick} ref={inputName} placeholder='Your Name...' className='logIn-input' type="text" />
+      <input onClick={inputClick} ref={inputEmail} placeholder='Your Email...' className='logIn-input' type="email" />
       <Link className='LogIn-Button' href={"/dashbord"} onClick={loginclick}>LogIn</Link>
       <Toaster />
     </div>
